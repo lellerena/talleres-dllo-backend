@@ -92,8 +92,5 @@ app.get('/users/:hobby', (req, res) => {
 
 app.get('/', (req, res) => res.send('Hello World!'))
 app.listen(port, () =>
-    console.log(`Example app listening on port ${port}! 
-	url:http://localhost:${port}/users/hobby?hobby=lectura
-	
-	`)
+    console.log(`Example app listening on port ${port}!`)
 )
